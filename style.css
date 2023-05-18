@@ -1,0 +1,56 @@
+
+.contato {
+    background-color: #5E17EC;
+    color: #FEFEFE;
+    display: flex;
+    padding: 16px 64px 15px;
+    justify-content: space-between;
+    font-size: 16px;
+}
+#email {
+    text-decoration: none;
+    color: #FEFEFE;
+}
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    color: #171717;
+}
+
+#divBusca{
+    background-color: #EEEEEE;
+    box-shadow: 0px 0px 1px #000000;
+    border-radius:20px;
+    width:230px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+#txtBusca{
+    background-color:transparent;
+    padding-left: 22px;
+    font-size:16px;
+    border:none;
+    vertical-align: middle;
+  }
+  
+#btnBusca{
+    border:none;
+    height:13px;
+    border-radius:0 7px 7px 0;
+    width:13px;
+    padding-right: 9px;
+    vertical-align: middle;
+}
+
+.header-botoes{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}

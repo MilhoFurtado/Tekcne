@@ -6,31 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tekhne</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <nav class="navBar">
-        
-        <img src="buttonbase.svg" alt="logo-marca">
-        
-        <div class="paginas">
-            <a href="#">Home</a>
-            <a href="#">Produtos</a>
-            <a href="#">Recursos</a>
-            <a href="#">Sobre Nós</a>
-        </div>  
-
-        <div class="espaco-branco"></div>
-        
-        <div class="botoes">
-            <button>Entrar</button>
-            <button id="signUp">Cadastrar</button>
+    <header>
+        <div class="contato">
+            <div class="telefone">
+                <img src="img/phone.svg" alt="Silhueta de telefone">
+                <span>(47) 4002-8922</span>
+            </div>
+            <div class="desconto">
+                <span>Obtenha 30% de Desconto em Notebooks | Compre Agora</span>
+            </div>
+            <div class="email">
+                <a href="mailto:tekhne@contato.com" id="email">tekhne@contato.com</a>
+                <img src="img/email.svg" alt="Silhueta de carta">
+            </div>            
         </div>
-    </nav>
-    
-    <section class="aboutUs">
-        <span>Sobre nós</span>
-        <h1>Porque somos diferentes?</h1>
-        <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
-    </section>
+
+        <nav class="navBar">
+            <a href="index.html" class="logo">
+                <img src="img/tekhne-logo.svg" alt="logo tekhne">
+            </a>
+            
+            <a href="#">Notebooks</a>
+            <a href="#">Fone de Ouvido</a>
+            <a href="#">Acessórios</a>
+            <a href="#">Promoções</a>
+
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Pesquisar"/>
+                <img src="img/search-symbol.svg" id="btnBusca" alt="Buscar"/>
+            </div>
+            
+            <div class="header-botoes">
+                <a href="#">
+                    <img src="img/acessibilidade.svg" alt="Trocar tamanho da fonte">
+                </a>
+                <a href="#">
+                    <img src="img/user.svg" alt="criacao de usuario">
+                </a>
+                <a href="#">
+                    <img src="img/shopping-cart.svg" alt="carrinho de compras">
+                </a>
+                <a href="#">
+                    <img src="img/ajuda.svg" alt="FAQ">
+                </a>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>

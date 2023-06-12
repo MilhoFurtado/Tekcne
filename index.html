@@ -40,10 +40,17 @@
             <a href="#">Acessórios</a>
             <a href="#">Promoções</a>
 
-            <div id="divBusca">
+            <!-- <div id="divBusca">
                 <input type="text" id="txtBusca" placeholder="Pesquisar"/>
                 <img src="img/search-symbol.svg" id="btnBusca" alt="Buscar"/>
-            </div>
+            </div> -->
+
+            <form action="/pesquisar" method="get" id="divBusca">
+                <input type="text" name="q" placeholder="Pesquisar" id="txtBusca"/>
+                <button type="submit" id="btnBusca">
+                  <img src="img/search-symbol.svg" alt="Lupa" />
+                </button>
+            </form>  
             
             <div class="header-botoes">
                 <a href="#">

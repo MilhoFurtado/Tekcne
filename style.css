@@ -36,6 +36,7 @@ a {
 #txtBusca{
     background-color:transparent;
     padding-left: 22px;
+    margin-left: 12px;
     font-size:16px;
     border:none;
     vertical-align: middle;
@@ -45,7 +46,7 @@ a {
     border:none;
     height:13px;
     border-radius:0 7px 7px 0;
-    width:13px;
+    width: 28px;
     padding-right: 9px;
     vertical-align: middle;
 }

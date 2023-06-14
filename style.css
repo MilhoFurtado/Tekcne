@@ -95,3 +95,17 @@ a {
     image-resolution: 100%;
 }
 
+.Acessorios1{
+    max-width: 250px;
+    max-height: 250px;
+    image-rendering: auto;
+    image-resolution: 100%;
+}
+
+.Acessorios_1{
+    max-width: 250px;
+    max-height: 250px;
+    opacity: 25%;
+    image-resolution: 100%;
+}
+

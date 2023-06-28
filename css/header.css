@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10%;
+}
+
+header .categorias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+header a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.selected {
+    color: #5E17EC;
+}
+
+header .botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pesquisa .input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background: #EEE;
+    box-shadow: 0px 0px 1px 0px #000;
+    padding: 0.3rem 1rem;
+}
+
+.pesquisa .input input {
+    border: none;
+    background: none;
+}
+
+.pesquisa .input input:focus {
+    outline: none;
+}
+
+.pesquisa .input button {
+    border: none;
+    background: none;
+    border-radius: 50%;
+}

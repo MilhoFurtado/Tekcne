@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekhne</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    
+    <nav class="contato animate__animated animate__fadeInDown">
+        <div class="telefone">
+            <img src="images/svg/phone.svg" alt="Silhueta de telefone">
+            <span>(47) 4002-8922</span>
+        </div>
+        <div class="desconto">
+            <span>Obtenha 30% de Desconto em Notebooks | Compre Agora</span>
+        </div>
+        <div class="email">
+            <a href="mailto:tekhne@contato.com" id="email">tekhne@contato.com</a>
+            <img src="images/svg/email.svg" alt="Silhueta de carta">
+        </div>            
+    </nav>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="logo">
+                <img src="images/svg/tekhne-logo.svg" alt="logo tekhne">
+            </a>
+        </div>
+        <div class="categorias">
+            <a href="notebooks.html">Notebooks</a>
+            <a href="fones.html">Fone de Ouvido</a>
+            <a href="acessorios.html">Acessórios</a>
+        </div> 
+        <div class="pesquisa">
+            <div class="input">
+                <input type="text" placeholder="Pesquisar">
+                <button>
+                    <img src="images/svg/search-symbol.svg" alt="search">
+                </button>
+            </div>
+        </div>
+        <div class="botoes">
+            <a href="#">
+                <img src="images/svg/acessibilidade.svg" alt="Trocar tamanho da fonte">
+            </a>
+            <a href="#">
+                <img src="images/svg/user.svg" alt="criacao de usuario">
+            </a>
+            <a href="carrinho.html">
+                <img src="images/svg/shopping-cart.svg" alt="carrinho de compras">
+            </a>
+            <a href="#">
+                <img src="images/svg/ajuda.svg" alt="FAQ">
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+        <nav class="breadcrumb">
+            <h6>Menu / <b><a href="notebooks.html">Notebooks</a></b> / Notebook Lenovo Ultrafino IdeaPad 3i </h6>
+        </nav>
+
+        <div class="detalhes">
+            <div class="detalhes-left">
+                <div class="detalhes-image">
+                    <img src="images/notebook-detalhes.png" alt="notebook">
+                </div>
+                <div class="detalhes-image-netas">
+                    <div class="neta">
+                        <img src="images/notebook-ideapad.png" alt="notebook">
+                    </div>
+                    <div class="neta">
+                        <img src="images/notebook-ideapad.png" alt="notebook">
+                    </div>
+                    <div class="neta">
+                        <img src="images/notebook-ideapad.png" alt="notebook">
+                    </div>
+                </div>
+            </div>
+            <div class="detalhes-right">
+                <div class="titles">
+                    <h1>Notebook Lenovo Ultrafino IdeaPad 3i</h1>
+                    <p>Lenovo IdeaPad 3i possui design leve e compacto. Faça vídeo-conferências em alta-definição com a câmera HD-720p. Sua privacidade pessoal é muito importante. é por isso que o IdeaPad 3i está equipado com porta de privacidade da webcam. Quando não estiver em uma chamada de vídeo ou gravando algo, basta deslizá-la.</p>
+                </div>
+                <div class="stars">
+                    <div class="star">
+                        <img src="images/svg/star.svg" alt="star">
+                        <img src="images/svg/star.svg" alt="star">
+                        <img src="images/svg/star.svg" alt="star">
+                        <img src="images/svg/star.svg" alt="star">
+                        <img src="images/svg/star.svg" alt="star">
+                    </div>
+                    <h5>5.0 (1.452)</h5>
+                </div>
+                <div class="prices">
+                    <h4>R$ 3.999,99</h4>
+                    <h2>R$ 3.325,56</h2>
+                    <h5>à vista no pix (16% OFF)</h5>
+                </div>
+                <div class="quantidade">
+                    <p>Quantidade:</p>
+                    <div class="buttons">
+                        <button onclick="diminuirValor()" id="menos-btn">-</button>
+                        <h5 id="quantidade-valor">1</h5>
+                        <button onclick="aumentarValor()" id="mais-btn">+</button>
+                    </div>
+                </div>
+                <div class="add-btn">
+                    <a href="carrinho.html"><button>Adicionar ao Carrinho</button></a>
+                </div>
+                <div class="entrega"></div>
+            </div>
+        </div>
+        
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

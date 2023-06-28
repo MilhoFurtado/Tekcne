@@ -1,0 +1,23 @@
+.feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.feedback .container {
+  width: 50%;
+  text-align: center;
+}
+.feedback .container .image {
+  display: flex;
+  justify-content: center;
+}
+.feedback .container .texts {
+  margin: 2rem 0;
+}
+.feedback .container .link a {
+  color: #5E17EC;
+  font-size: 18px;
+  text-decoration: none;
+}/*# sourceMappingURL=feedback.css.map */

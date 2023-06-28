@@ -1,83 +1,24 @@
-/* 
-    ⚠️ ATENÇÃO: ESTUDEM FLEXBOX!!
+@import 'nav-contato.css';
+@import 'header.css';
+@import 'main.css';
+@import 'detalhes.css';
+@import 'carrinho.css';
+@import 'feedback.css';
 
-    É muito importante, vão usar para sempre!
-    Se vocês entenderem as propriedades do flexbox, vocês vão conseguir posicionar e estruturar qualquer elemento.
 
-    Foquem nessas propriedades:
-
-    display: flex; (Esse ativa o flexbox no elemento e faz as outras propriedades funcionarem)
-    justify-content: **Entenda como funciona cada valor dessa propriedade**;
-    align-items: **Entenda como funciona cada valor dessa propriedade**;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-    Recomendo esse jogo: https://flexboxfroggy.com/#pt-br
-
-*/
-
-/* Reset Padrão */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: #5E17EC;
+    border-radius: 2px;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* Nav */
-
-nav.contato {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 10%;
-    background-color: #5E17EC;
-}
-
-nav.contato span, nav.contato a {
-    font-size: 16px;
-    color: #FEFEFE;
-    text-decoration: none;
-}
-
-/* Header */
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 10%;
-}
-
-header .categorias {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-}
-
-header a {
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
-    text-decoration: none;
-    transition: all 0.2s;
-}
-
-.selected {
-    color: #5E17EC;
-}
-
-header .botoes {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-}
-
-/* Main */
-
-main {
-    padding: 0 10% 4rem 10%;
 }
 
 /* Banner */
@@ -123,6 +64,7 @@ main {
     gap: 1rem;
     width: 20rem;
     flex-grow: 1;
+    text-decoration: none;
 }
 
 .produto .image {

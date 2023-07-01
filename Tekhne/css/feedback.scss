@@ -1,0 +1,29 @@
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    .container {
+        width: 50%;
+        text-align: center;
+
+        .image {
+            display: flex;
+            justify-content: center;
+        }
+
+        .texts {
+            margin: 2rem 0;
+        }
+
+        .link {
+            a {
+                color: #5E17EC;
+                font-size: 18px;
+                text-decoration: none;
+            }
+        }
+    }
+}
